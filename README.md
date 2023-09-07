@@ -59,7 +59,7 @@ Ajouter les deux lignes suivantes dans le fichier .bashrc qui se trouve dans le 
 Pour afficher les messages de debug des modules :
 `dmesg`
 
-### Recompilation du noyau
+### Recompilation du noyau pour la Raspberry Pi 
 
 Créer un répertoire pour re-compiler le noyau :
 `mkdir rpi3b64 && cd rpi3b64/`
