@@ -27,7 +27,6 @@ LED via l'application ou en utilisant le bouton poussoir connecté à la RPi. <b
 • Mise en place d'un programme exécuté sur la Raspberry Pi pour assurer la
 communication entre l'application de supervision et la RPi. <br>
 L'application de contrôle et de supervision permettra de : <br>
-• Modifier la fréquence de capture des données de température. <br>
 • Consulter la dernière valeur de température capturée. <br>
 • Accéder à l'historique des valeurs de température. <br>
 • Personnaliser le message d'accueil affiché sur l'écran LCD. <br>
