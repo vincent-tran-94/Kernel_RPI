@@ -33,8 +33,8 @@ L'application de contrôle et de supervision permettra de : <br>
 
 ## Etapes d'installation pour faire la compilation du noyau
 ### Installation de chaine de compilation croisée
-`sudo apt update`
-`sudo apt full-upgrade`
+`sudo apt update` <br>
+`sudo apt full-upgrade` <br>
 
 Installer les paquets suivants :
 `sudo apt install build-essential gawk gcc g++ gfortran git texinfo bison
