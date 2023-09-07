@@ -17,7 +17,7 @@ Ce système sera accessible via une machine du réseau fonctionnant sous Linux. 
 La RPi sera équipée d'un écran LCD 16x2 connecté via le bus I2C, ainsi que d’une diode LED,
 d'un bouton poussoir et d'un capteur de température DHT11. L'interaction avec ces
 périphériques sera gérée par des modules noyau. <br>
-Les principales fonctionnalités du système comprennent :
+Les principales fonctionnalités du système comprennent : <br>
 • Affichage sur l'écran LCD d'un message d'accueil personnalisable par l'utilisateur,
 ainsi que de la température capturée par le capteur DHT11. Les données de
 température seront également enregistrées dans des fichiers journaux. <br>
