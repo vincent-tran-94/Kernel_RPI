@@ -1,4 +1,4 @@
-# Kernel_RPI
+# Projet fin de formation POEI Data Scientest
 
 ## Contexte 
 Au sein de ce projet de fin de parcours dédié à la formation en développement système sous
