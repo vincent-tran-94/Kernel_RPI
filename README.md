@@ -77,20 +77,20 @@ une session de développement pour les modules noyau :
 
 Une fois la compilation est effectuée, on procède par mettre à jour les nouveaux fichiers créés dans la carte SD
 contenant le Raspberry OS. Pour cela, mettre la carte SD sur la machine hôte, et créer le script copy.sh dans le
-dossier ~/rpi3b64/linux :
+dossier ~/rpi3b64/linux : 
 
-`mkdir -p ~/mnt/fat32 ~/mnt/ext4`
-`sudo mount /dev/mmcblk0p1 ~/mnt/fat32`
-`sudo mount /dev/mmcblk0p2 ~/mnt/ext4/`
-`sudo env PATH=$PATH make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- INSTALL_MOD_PATH=~/mnt/ext4 modules_install`
-`sudo cp ~/mnt/fat32/kernel8.img ~/mnt/fat32/kernel8-backup.img`
-`sudo cp arch/arm64/boot/Image ~/mnt/fat32/kernel8.img`
-`sudo cp arch/arm64/boot/dts/broadcom/*.dtb ~/mnt/fat32/`
-`sudo cp arch/arm64/boot/dts/overlays/*.dtb* ~/mnt/fat32/overlays/`
-`sudo cp arch/arm64/boot/dts/overlays/README ~/mnt/fat32/overlays/`
-`sudo umount ~/mnt/fat32`
-`sudo umount ~/mnt/ext4`
-`rm -rf ~/mnt/fat32 ~/mnt/ext4`
+`mkdir -p ~/mnt/fat32 ~/mnt/ext4` <br>
+`sudo mount /dev/mmcblk0p1 ~/mnt/fat32` <br>
+`sudo mount /dev/mmcblk0p2 ~/mnt/ext4/` <br>
+`sudo env PATH=$PATH make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- INSTALL_MOD_PATH=~/mnt/ext4 modules_install` <br>
+`sudo cp ~/mnt/fat32/kernel8.img ~/mnt/fat32/kernel8-backup.img` <br>
+`sudo cp arch/arm64/boot/Image ~/mnt/fat32/kernel8.img` <br>
+`sudo cp arch/arm64/boot/dts/broadcom/*.dtb ~/mnt/fat32/` <br>
+`sudo cp arch/arm64/boot/dts/overlays/*.dtb* ~/mnt/fat32/overlays/` <br>
+`sudo cp arch/arm64/boot/dts/overlays/README ~/mnt/fat32/overlays/` <br>
+`sudo umount ~/mnt/fat32` <br>
+`sudo umount ~/mnt/ext4` <br>
+`rm -rf ~/mnt/fat32 ~/mnt/ext4` <br>
 
 
 
