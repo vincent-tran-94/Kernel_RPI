@@ -12,8 +12,8 @@ l'occasion de démontrer leur maîtrise des concepts essentiels du développemen
 
 ## Description du projet 
 Ce projet de fin de parcours vise à concevoir un système dédié à la surveillance et à la
-gestion d'une carte Raspberry Pi 3 (RPi) connectée à divers capteurs et actionneurs. Ce
-système sera accessible via une machine du réseau fonctionnant sous Linux. <br>
+gestion d'une carte Raspberry Pi 3 (RPi) connectée à divers capteurs et actionneurs. <br>
+Ce système sera accessible via une machine du réseau fonctionnant sous Linux. <br>
 La RPi sera équipée d'un écran LCD 16x2 connecté via le bus I2C, ainsi que d’une diode LED,
 d'un bouton poussoir et d'un capteur de température DHT11. L'interaction avec ces
 périphériques sera gérée par des modules noyau. <br>
