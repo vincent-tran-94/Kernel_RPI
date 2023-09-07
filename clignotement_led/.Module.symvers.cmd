@@ -1,0 +1,1 @@
+cmd_/home/vintran/Alten/Projet/Projet_final/clignotement_led/Module.symvers := sed 's/\.ko$$/\.o/' /home/vintran/Alten/Projet/Projet_final/clignotement_led/modules.order | scripts/mod/modpost -m -a  -o /home/vintran/Alten/Projet/Projet_final/clignotement_led/Module.symvers -e -i Module.symvers   -T -

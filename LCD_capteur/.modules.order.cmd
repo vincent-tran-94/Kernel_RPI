@@ -1,0 +1,1 @@
+cmd_/home/vintran/Alten/Projet/Projet_final/LCD_capteur/modules.order := {   echo /home/vintran/Alten/Projet/Projet_final/LCD_capteur/LCD_to_capteur.ko; :; } | awk '!x[$$0]++' - > /home/vintran/Alten/Projet/Projet_final/LCD_capteur/modules.order

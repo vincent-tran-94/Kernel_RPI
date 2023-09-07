@@ -1,0 +1,1 @@
+cmd_/home/vintran/Alten/Projet/Projet_final/capteur_dht11/modules.order := {   echo /home/vintran/Alten/Projet/Projet_final/capteur_dht11/dht11_capteur_v1.ko; :; } | awk '!x[$$0]++' - > /home/vintran/Alten/Projet/Projet_final/capteur_dht11/modules.order
