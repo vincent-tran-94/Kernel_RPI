@@ -31,6 +31,10 @@ L'application de contrôle et de supervision permettra de : <br>
 • Accéder à l'historique des valeurs de température. <br>
 • Personnaliser le message d'accueil affiché sur l'écran LCD. <br>
 
+## Architecture du système d'application Raspberry PI
+![Architecture système Raspberry](Architect_system_app_RPI.png)
+
+
 ## Etapes d'installation pour faire la compilation du noyau
 ### Installation de chaine de compilation croisée
 `sudo apt update` <br>
