@@ -32,8 +32,9 @@ L'application de contrôle et de supervision permettra de : <br>
 • Personnaliser le message d'accueil affiché sur l'écran LCD. <br>
 
 ## Architecture du système d'application Raspberry PI
-![Architecture système Raspberry](Architect_system_app_RPI.png)
-
+<div style="text-align: center;">
+  <img src="Architect_system_app_RPI.png">
+</div>
 
 ## Etapes d'installation pour faire la compilation du noyau
 ### Installation de chaine de compilation croisée
